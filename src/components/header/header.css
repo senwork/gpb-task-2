@@ -1,0 +1,30 @@
+header {
+  padding: 0 2rem;
+  -webkit-box-shadow: 0 0 10px #333;
+  box-shadow: 0 0 10px #333;
+}
+
+.links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+}
+
+.links a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100%;
+  padding: 0 1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.links a:hover,
+.links a.active {
+  background-color: #353535;
+}

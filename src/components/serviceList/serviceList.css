@@ -1,0 +1,29 @@
+ul {
+  padding: 0 1rem;
+}
+
+li {
+  list-style-type: decimal-leading-zero;
+  min-width: 320px;
+  width: 100%;
+}
+
+li:hover {
+  background-color: #444;
+}
+
+li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 1rem .4rem;
+  border-bottom: 1px solid #555;
+  -webkit-text-decoration: auto;
+  text-decoration: auto;
+}
